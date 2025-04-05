@@ -1,230 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SS5EZNND90"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-SS5EZNND90');
-    </script>
-    <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bo Yin Homepage</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-29643011-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <!-- New GA4 tracking code, see https://support.google.com/analytics/answer/10271001#analyticsjs-enable-basic -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJD50R0Z7"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GNJD50R0Z7');
-    </script>
-    <script type="text/javascript">
-       $(function(){
-           function footerPosition(){
-               $("footer").removeClass("fixed-bottom");
-               var contentHeight = document.body.scrollHeight,
-                   winHeight = window.innerHeight;
-               if(!(contentHeight > winHeight)){
-                    $("footer").addClass("fixed-bottom");
-              } else {
-                   $("footer").removeClass("fixed-bottom");
-              }
-           }
-          footerPosition();
-           $(window).resize(footerPosition);
-     });
-    </script>
-    <!-- For all browsers -->
-    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
-    <link rel="stylesheet" href="assets/css/academicons.css"/>
-    <style>
-      button.accordion {
-      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      cursor: pointer;
-      padding: 0px;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 100%;
-      transition: 0.3s;
-      background-color: #f8f8f8;
-      }
-      button.accordion.active, button.accordion:hover {
-      background-color: #f8f8f8;
-      }
-      button.accordion:after {
-      content: " [+] ";
-      font-size: 90%;
-      color:#777;
-      float: left;
-      margin-left: 1px;
-      }
-      button.accordion.active:after {
-      content: " [\2212] ";
-      }
-      div.panel {
-      padding: 0 20px;
-      margin-top: 5px;
-      display: none;
-      background-color: white;
-      font-size: 100%;
-      }
-      div.panel.show {
-      display: block !important;
-      }
-      .social-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      }
-      footer {
-      text-align: center;
-      height: 40px;
-      color: #000000;
-      padding: 1.5em;
-      font-size: 12px;
-      letter-spacing: 1px;
-      font-family: Arial;
-      }
-      footer.fixed-bottom {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      }
-      table {
-      border:0.5px solid #C1C1C1;
-      }
-      hr.new1 {
-      border-top: 0.5px solid #C1C1C1;
-      position: relative;
-      margin-top: -15px;
-      margin-bottom: 2px;
-      }
-    </style>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/3097/3097132.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/9b6ee74e26.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 <div class="wrapper">
-    <header>
-        <h1>Bo Yin</h1>
-        <h4><b>Research Affiliation</b> <br> UGent & IMEC</h4>
-        <h3><a href="https://boyin96.github.io/"><b>Home</b></a></h3>
-        <h3><a href="https://boyin96.github.io/publication.html"><b>Publications</b></a></h3>
-        <h3><a href="https://boyin96.github.io/code.html"><b>Code</b></a></h3>
-        <h3><a href="https://boyin96.github.io/about.html"><b>About</b></a></h3>
-        <h3><a href="https://boyin96.github.io/research/YIN_CV.pdf"><b>CV</b></a></h3>
-        <h3><a href="https://boyin96.github.io/albums.html"><b>Albums</b></a></h3>
-
-        <b>SOCIAL</b> <br>
-        <div class="social-row">
-            <a href="https://scholar.google.be/citations?user=Kn9pj78AAAAJ&hl=en" target="_blank"><i
-                    class="ai ai-fw ai-google-scholar-square"></i>Scholar</a><br>
-            <a href="https://orcid.org/0000-0003-4784-7738"><i class="ai ai-fw ai-orcid-square"></i>ORCID</a><br>
-            <a href="https://github.com/boyin96"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
-            <a href="https://www.linkedin.com/in/bo-yin-453760251/" class="author-social" target="_blank"><i
-                    class="fa fa-fw fa-linkedin-square"></i>LinkedIn</a><br>
+    
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+        <div style="flex: 0 0 200px; margin-right: 10px;">
+            <img src="images/Bo-Yin.png" alt="Bo Yin" style="width: 100%; height: auto; display: block; 
+            margin-top: 20px;">
         </div>
-        <br>
-        <p><b>CONTACT</b> <br>
-            <a href="mailto:bo.yin@ugent.be"><i class="fa-solid fa-envelope"></i></a> bo.yin@ugent.be,
-            bborg.yin@gmail.com<br>
-            <a href="https://goo.gl/maps/yTppZnnVP3wKZsBt9"><i class="fa-solid fa-location-dot"></i></a>
-            Technologiepark-Zwijnaarde 126, Belgium</p>
-        <p><small>CopyRight © 2022-2023 Borg</small></p>
-    </header>
+        <div style="flex: 1; text-align: left;">
+            <p>
+                <b style="font-size: 28px;">Bo Yin</b>
+                <br><br>
+                Ph.D. Student, WAVES-WICA Group<br>
+                Faculty of Engineering and Architecture <br>
+                Department of Information Technology<br>
+                Ghent University - IMEC<br>
+            </p>
+            <p><b>Email:</b> <a href="mailto:bo.yin@ugent.be">bo.yin@ugent.be</a></p>
+            <p><b>Address:</b> Technologiepark-Zwijnaarde 126, 9052 Ghent, Belgium</p>
+        </div>
+        <div style="flex: 0 0 179px; text-align: center;">
+            <img src="images/ugent_logo.png" 
+            alt="UGent" style="width: 70%; height: auto; display: block; margin: 0 auto;">
+            <img src="images/scut_logo.jpg" 
+            alt="SCUT" style="width: 70%; height: auto; display: block; margin: 10px auto;">
+        </div>
+    </div>
+    
+
     <section>
-        <img src="Bo-Yin.png" height="229" width="250" alt="Bo Yin">
-        <br/>
-        <br/>
-        <p>Hi, I am currently a Ph.D. Candidate of <a
-                    href="https://www.waves.intec.ugent.be/">WAVES-WiCa</a>,
-            <a href="https://www.ugent.be/ea/intec/en">Department of Information
-            Technology</a>, <a href="https://www.ugent.be/en">Ghent University (UGent)</a>.</p>
-        <table border="0.5" style="width:100%" bgcolor=#FFF8EA>
-          <tr>
-            <td style="border: none;">
-              <h3 style="color:#224b8d;">Research Interests</h3>
-              <hr class="new1">
-              <ul>
-                  <li>Network Slicing</li>
-                  <li>Wireless Communications</li>
-                  <li>Deep Learning</li>
-                  <li>Convex Optimization</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: none;">
-              <h3 style="color:#224b8d;">News & Updates</h3>
-              <hr class="new1">
-              <ul>
-                  <li>
-                      <b>[10-2023]</b> Our work entitled "RIS-Aided mmWave Network Planning towards Connectivity
-                      Enhancement and Minimal Electromagnetic Field Exposure"
-                      has been accepted for publication in IEEE Access.
-                  </li>
-                  <li>
-                      <b>[07-2023]</b> I am approved for <a href="https://www.china-cic.cn/">
-                      China Institute of Communications (CIC)</a> membership.
-                  </li>
-                  <li>
-                      <b>[06-2023]</b> I am awarded the Short Term Scientific Missions (STSMs) grant from INTERACT for
-                      a one-month exchange with <a href="https://www.utwente.nl/en/">University of Twente (UT)</a>.
-                  </li>
-                  <li>
-                      <b>[05-2023]</b> I am approved for <a href="https://interactca20120.org/">
-                      COST INTERACT</a> membership.
-                  </li>
-                  <li>
-                      <b>[04-2023]</b> Our work entitled "On the Connectivity Maximization in
-                      NOMA-Aided Industrial IoT with Multiple Services"
-                      has been accepted for publication in IEEE Internet of Things Journal.
-                  </li>
-                  <li>
-                      <b>[01-2023]</b> Our work entitled "Connectivity Maximization in
-                      Non-orthogonal Network Slicing Enabled Industrial Internet-of-Things with Multiple Services"
-                      has been accepted for publication in IEEE Transactions on Wireless Communications.
-                  </li>
-                  <li>
-                      <b>[01-2023]</b> Happy New Year 2023!!!
-                  </li>
-                  <li>
-                      <b>[10-2022]</b> I joined Ghent University as a Ph.D. Candidate.
-                  </li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-    </section>
-    <section>
-        <script type="text/javascript"
-                src="//rf.revolvermaps.com/0/0/8.js?i=5gkh16c4w5o&amp;m=0&amp;c=ff0000&amp;
-                cr1=ffffff&amp;f=times_new_roman&amp;l=33"
-                async="async">
-        </script>
+
+        <h3>Biography</h3>
+        <hr class="new1">
+        <p> I am currently pursuing a Ph.D. degree, with faculty of 
+            engineering and architecture, department of information technology, WAVES-WICA, 
+            Ghent University - IMEC (UGent-IMEC), Ghent, Belgium. 
+            Before that, I received the B.Eng. degree in information engineering and M.Eng. degree in 
+            information and communication engineering from South China University of Technology (SCUT), 
+            Guangzhou, China, in 2019 and 2022, respectively. </p>
+
+        <h3>Research Interests</h3>
+        <hr class="new1">
+        <ul>
+            <li>Network Slicing</li>
+            <li>Wireless Communications</li>
+            <li>Deep Learning</li>
+            <li>Convex Optimization</li>
+        </ul>
+
+        <h3>Publications</h3>
+        <hr class="new1">
+        <strong>Journal Papers</strong>
+
+        <p>
+        [J.03] <b>B. Yin</b><sup><b>*</b></sup>, W. Joseph and M. Deruyck, 
+        "RIS-Aided mmWave Network Planning towards Connectivity Enhancement and Minimal 
+        Electromagnetic Field Exposure", <i>IEEE Access</i>, vol. 11, pp. 115911-115923, Oct. 2023.
+        <p>
+        
+        <p>
+        [J.02] <b>B. Yin</b>, J. Tang<sup><b>*</b></sup>, M. Wen and W. Li, 
+        "On the Connectivity Maximization in NOMA-Aided Industrial IoT with Multiple Services", 
+        <i>IEEE Internet of Things Journal</i>, vol. 10, no. 17, pp. 15147-15158, Apr. 2023.
+        </p>
+        
+        <p>
+        [J.01] <b>B. Yin</b>, J. Tang<sup><b>*</b></sup> and M. Wen,
+        "Connectivity Maximization in Non-orthogonal Network Slicing Enabled Industrial Internet-of-Things 
+        with Multiple Services", 
+        <i>IEEE Transactions on Wireless Communications</i>, vol. 22, no. 8, pp. 5642-5656, Jan. 2023.
+        </p>
+
+        <strong>Conference Papers</strong>
+        <p>
+        [C.01] <b>B. Yin</b>, J. Tang<sup><b>*</b></sup> and M. Wen,
+        "Maximizing the Connectivity of Wireless Network Slicing Enabled Industrial Internet-of-Things", 
+        <i>IEEE Global Communications Conference</i>, Madrid, Spain, Dec. 2021, pp. 1-6.
+        </p>
+
+        <h3>Honors & Awards</h3>
+        <hr class="new1">
+        <ul>
+            <li>2022 - 2026: 
+                <ul>
+                    <li>China Scholarship Council</li>
+                </ul>
+            </li>
+            <li>2018 - 2019: 
+                <ul>
+                    <li>Chongqing Scholar Scholarship</li>
+                    <li>Honorable Mentions in MCM/ICM</li>
+                </ul>
+            </li>
+            <li>2017 - 2018: 
+                <ul>
+                    <li>
+                        National Scholarship
+                    </li>
+                </ul>
+            </li>
+            <li>2016 - 2017: 
+                <ul>
+                    <li>National Scholarship</li>
+                    <li>First Prize in CUMCM</li>
+                    <li>Second Prize in Mathematics Competition</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Teaching Assistant</h3>
+        <hr class="new1">
+        <ul>
+        <li>Introduction to Computer & Programming 
+            (with Prof. Shaofeng Lu; for undergraduate students; SCUT, Spring, 2020) </li>
+        <li>Introduction to Engineering 
+            (with Prof. Shaofeng Lu; for undergraduate students; SCUT, Fall, 2019)</li>
+        </ul>
+
+        <h3>Academic Service</h3>
+        <hr class="new1">
+        <ul>
+            <li>Reviewer:
+                <ul>
+                    <li>IEEE TWC, IEEE TCCN, IEEE IoTJ, IEEE TCOM, IEEE WCL, IEEE TVT, DCN</li>
+                </ul>
+
+            </li>
+        </ul>
+        
+        <h3>Professional Memberships</h3>
+        <hr class="new1">
+        <ul>
+            <li>Member, IEEE</li>
+            <li>Member, China Institute of Communications, CIC</li>
+        </ul>
+
     </section>
 </div>
-
-
-<script src="javascripts/scale.fix.js"></script>
 </body>
 </html>
