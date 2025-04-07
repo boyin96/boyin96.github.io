@@ -21,6 +21,30 @@ body {
     border: 1px solid #ccc;
 }
 
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+
+    div[style*="display: flex;"] {
+        flex-direction: column;
+    }
+
+    div[style*="flex: 0 0 200px"] {
+        flex: 1 1 auto;
+        margin-right: 0;
+    }
+
+    div[style*="flex: 1;"] {
+        text-align: center;
+    }
+
+    div[style*="flex: 0 0 179px;"] {
+        flex: 1 1 auto;
+    }
+}
+
 hr.new1 {
     border-top: 0.5px solid;
     position: relative;
@@ -54,4 +78,16 @@ section h2 {
     margin-bottom: 15px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;                        
+    color: #003366;                               
+    border-bottom: 1px dashed transparent;       
+    padding-bottom: 1px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+    border-bottom-color: #003366;                 
 }
